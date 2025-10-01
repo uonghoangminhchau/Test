@@ -17,10 +17,11 @@
   xhr.onload = function() {
     if (xhr.status === 200) {
       try {
-        var json = JSON.parse(xhr.responseText);
-        var digest = json.FormDigestValue || (json.d && json.d.GetContextWebInformation && json.d.GetContextWebInformation.FormDigestValue);
+        var digest = JSON.parse(xhr.responseText).formDigestValue;
         if (digest) sendPost(digest);
-      } catch(e) {}
+      } catch(e) {
+        console.error('Cannot parse digest');
+      }
     }
   };
   xhr.send();
