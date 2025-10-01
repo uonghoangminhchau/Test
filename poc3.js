@@ -8,7 +8,7 @@
       // Nếu server mong JSON:
       headers: { 'Content-Type': 'application/json;charset=UTF-8' },
       // Nếu bạn muốn gửi cookie (chỉ dùng trên môi trường bạn kiểm soát):
-      // credentials: 'include',
+      credentials: 'include',
       body: JSON.stringify({ text: "-------------", mentions: [] })
     })
     .then(r => {
