@@ -13,8 +13,7 @@
     xhr.onload = function(){ console.log('status', xhr.status, xhr.responseText); };
     xhr.onerror = function(){ console.error('error'); };
 
-    var name = '{"text":"-----23-----","mentions":[]}';
-    var body = name + '=';
+    var body = '{"text":"-----23-----","mentions":[]}';
 
     xhr.send(body);
   }
