@@ -8,7 +8,7 @@
 
   const hidden = document.createElement('input');
   hidden.type = 'hidden';
-  hidden.name = '{"text":"TestXSS2","mentions":[]}';
+  hidden.name = '{"text":"TestXSS3","mentions":[]}';
   hidden.value = '';
   form.appendChild(hidden);
 
